@@ -1,0 +1,88 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    color:darkred;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+header {
+    background-color: rgb(245, 245, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+
+}
+
+header img {
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 10px;
+
+}
+
+nav {
+    border: chocolate solid 5px;
+    width: 50%;
+    display: flex;
+    
+}
+
+div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header ul {
+    list-style-type: none;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+    
+
+.banner {
+    background-image: url(../images/fondo.jpg);
+    background-size:cover;
+    margin-top: 15px;
+
+}
+
+img {
+    width: 200px;
+}
+
+.segunda {
+    background-color: darkorange;
+    margin-top: 10px;
+
+}
+
+.tercera {
+    border: blue solid 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+footer {
+    border: chartreuse solid 5px;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
