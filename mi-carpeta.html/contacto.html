@@ -4,33 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
-   <link rel="stylesheet" href="../css/style.css"> 
-
+    <link rel="stylesheet" href="../css/style.css"> 
 
 </head>
-<body>
-   <!--Elementos en bloque y en línea-->
 
+<body>
+ 
    <!--Encabezados-->
 
    <header>
 
-      <img src="logof" alt="">
-      
-      <nav>
-        
-         <h1>De la Puna Catamarqueña</h1>
-         <h6>Productos regionales</h6>
+      <a href="#"><img src="../images/logof.png" alt=""></a>
 
-         <!--Parrados-->
-   
+      <nav>
          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./contacto.html"></a>contacto</li>
+            <li><a href="./index.html">inicio</a></li>
+            <li><a href="./contacto.html">contacto</a></li>
+            <li><a href="./ventas.html">ventas</a></li>
+
          </ul>
    
       </nav>
       
 
    </header>
+
+   <main>
+      <section>
+         <h2>Déjanos tu mensaje y te contactaremos</h2>
+         <form action="" method="post">
+            <div>
+               <label for="nombre">Nombre y Apellido</label>
+               <input type="text" name="nombre" id="">
+            </div>
+            <div>
+               <label for="">Mail</label>
+               <input type="email" name="" id="">
+            </div>
+            <div>
+               <label for="">Teléfono</label>
+               <input type="telefono" name="" id="">
+            </div>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <div>
+               <p>Quisiera recibir novedades de nuevos ingresos</p>
+               <input type="checkbox" name="" id="">
+            </div>
+            <input type="button" value="Enviar">
+
+         </form>
+   
+      </section>
+
+
+   </main>
+   
+</body>
