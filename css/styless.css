@@ -1,0 +1,39 @@
+/*# sourceMappingURL=styless.css.map */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.segunda {
+    background-image: url(../images/fondo.jpg);
+    background-position: center;
+    margin-top: 5px;
+    height: 500px;
+    background-size: cover;
+    font-size: x-large;
+    color: white;
+
+}
+
+.tercera {
+    background-image: url(../images/soleschicos.png);
+    background-position: center;
+    margin-top: 10px;
+    height: 600px;
+    background-size: contain;
+    color: whitesmoke;
+}
+
+.cuarta {
+    background-color: burlywood;
+
+}
+
+.btn-primary {
+    background-color: green;
+}
+
